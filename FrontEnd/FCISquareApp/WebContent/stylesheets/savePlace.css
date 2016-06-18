@@ -1,0 +1,57 @@
+#checked{
+	background : url("/FCISquareApp/images/sa7.jpg") no-repeat center center;
+     width : 30px;
+     height :30px;
+     border : none;
+     color : transparent;
+     margin-left:10px;
+}
+#unchecked{
+	background : url("/FCISquareApp/images/mshsa7.jpg") no-repeat center center;
+     width : 30px;
+     height :30px;
+     border : none;
+     color : transparent;
+     margin-left:10px;
+}
+
+.Place{
+/* 	changed here by amora */
+/*   margin: 20px auto;  */
+/* 	margin-top:20px; */
+/* 	margin-bottom:20px; */
+  width: 300px; 
+  height: 70px;
+  -webkit-border-radius: 8px/7px; 
+  -moz-border-radius: 8px/7px; 
+  border-radius: 8px/7px; 
+/*   position:relative; */
+/*   display:block; */
+  background-color: #ebebeb; 
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  border: solid 1px #cbc9c9;
+/*   transition-duration:1s; */
+/* width:700px; */
+/* height:100px; */
+/* margin-right:50px; */
+  
+}
+#Contain{
+	width:1000px;
+	margin-left:200px;
+}
+#Contain div{
+	margin: 0 auto;
+	margin-left:20px;
+	margin-bottom:50px;
+	float:left;
+}
+
+.Place  p{
+	
+	margin-left:10px;
+	margin-right:20px;
+	display:inline;
+}

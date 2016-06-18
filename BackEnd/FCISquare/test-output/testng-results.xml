@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="854" started-at="2016-05-11T04:21:10Z" finished-at="2016-05-11T04:21:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="854" started-at="2016-05-11T04:21:10Z" finished-at="2016-05-11T04:21:11Z">
+      <class name="com.models.com.models.LikeTest">
+        <test-method status="PASS" signature="addLike(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.models.com.models.LikeTest@26be92ad]" name="addLike" duration-ms="698" started-at="2016-05-11T06:21:10Z" data-provider="test1" finished-at="2016-05-11T06:21:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[43]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Like]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLike -->
+        <test-method status="PASS" signature="addLike(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.models.com.models.LikeTest@26be92ad]" name="addLike" duration-ms="45" started-at="2016-05-11T06:21:11Z" data-provider="test1" finished-at="2016-05-11T06:21:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[43]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Like]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLike -->
+        <test-method status="PASS" signature="addLike(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.models.com.models.LikeTest@26be92ad]" name="addLike" duration-ms="42" started-at="2016-05-11T06:21:11Z" data-provider="test1" finished-at="2016-05-11T06:21:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[43]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Like]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLike -->
+      </class> <!-- com.models.com.models.LikeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

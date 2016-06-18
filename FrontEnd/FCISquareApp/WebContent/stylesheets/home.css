@@ -1,0 +1,311 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+*{
+  font-family: 'Oswald';
+}
+button:focus {outline:0;}
+.content{
+	width: 800px;
+	margin: auto;
+	padding-top: 10px;
+}
+header{
+	padding-top: 10px;
+	font-size: 40px;
+	font-family: 'Oswald';
+	width: 1000px;
+	margin: auto;
+	padding-bottom: 10px;
+}
+.icon-bar{
+	padding-bottom: 20px;
+}
+.icon-bar img{
+	width: 40px;
+	height: 40px;
+	padding-right: 3px;
+}
+header span{
+  color: #fd8a17;
+  font-family: 'Oswald';
+  width: 1000px;
+  margin: auto;
+}
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after, #cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.content, {
+	width: 800px;
+	margin: auto;
+}
+
+#cssmenu {
+  width: 1000px;
+  
+  border: 3px solid #fd8a17;
+  border-radius: 3px;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1;
+  background: black;
+  margin-left:160px;
+  margin-bottom:20px;
+  box-shadow: 1px 1px 0 #df7002, 2px 2px 0 #df7002, 3px 3px 3px rgba(0, 0, 0, 0.35);
+}
+
+#cssmenu > ul {
+  background: url('images/bg.png');
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu > ul > li > a {
+  padding: 20px 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fd8a17;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+#cssmenu > ul > li > a:hover,
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li.active > a {
+  color: #fd8a17;
+}
+
+
+#cssbar{
+		
+/* 	margi-top:70px; */
+/* 	margin-left:30px; */
+	margin-right:20px;
+/* 	float:left; */
+	height:100%;
+	width:12%;
+/* 	width:120px; */
+/* 	height:600px; */
+	border: 3px solid #fd8a17;
+  	position:fixed;
+  	top:0;
+  	left:0;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1;
+    background: black;
+ 	visibility: hidden;
+ 	 box-shadow: 1px 1px 0 #df7002, 2px 2px 0 #df7002, 3px 3px 3px rgba(0, 0, 0, 0.35);
+/* 	margin-top:70px; */
+/* 	margin-left:30px; */
+/* 	margin-right:20px; */
+/* 	float:left; */
+/* 	width:120px; */
+/* 	height:600px; */
+/* 	border: 3px solid #fd8a17; */
+  
+/*   font-family: 'Oswald', sans-serif; */
+/*   line-height: 1; */
+/*   background: black; */
+ 	
+/*   box-shadow: 1px 1px 0 #df7002, 2px 2px 0 #df7002, 3px 3px 3px rgba(0, 0, 0, 0.35); */
+}
+li{
+	padding-top:8px;
+	padding-left:8px;
+	list-style-type: none;
+	margin-bottom:15px;
+}
+
+
+#cssbar  > li > a {
+  padding-left:5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fd8a17;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+#cssbar> li > a:hover,
+#cssbar > li:hover > a,
+#cssbar li.active > a {
+  color: #444444;
+}
+
+
+#cssfollow{
+	width:300px;
+	height:100px;
+	top:160px;left:350px; 
+	position:absolute;
+	background-color:#EEEEEE;
+	border-radius:10px;
+	box-shadow:3px 3px 3px #fd8a17;
+	
+	margin-top:10px;
+}
+#cssfollow input[type=text]{
+	
+	margin-left:10px;
+	margin-top:0px;
+	border-radius:10px;
+}
+#cssfollow input[type=submit]{
+	
+	margin-left:50px;
+	margin-top:20px;
+	border-radius:10px;
+	box-shadow:3px 3px 3px #fd8a17;
+	
+}
+
+
+#cssunfollow{
+	width:300px;
+	height:100px;
+	top:160px;left:660px; 
+	position:absolute;
+	background-color:#EEEEEE;
+	border-radius:10px;
+	box-shadow:3px 3px 3px #fd8a17;
+	
+	margin-top:10px;
+}
+#cssunfollow input[type=text]{
+	
+	margin-left:10px;
+	margin-top:0px;
+	border-radius:10px;
+}
+#cssunfollow input[type=submit]{
+	
+	margin-left:50px;
+	margin-top:20px;
+	border-radius:10px;
+	box-shadow:3px 3px 3px #fd8a17;
+	
+}
+
+#cssmenu input[type=submit]{
+	
+	margin-top:15px;
+	background-color:black;
+	border:black;
+	color:	#fd8a17;
+	font-size:14px;
+	text-transform: uppercase;
+}
+#cssmenu input[type=submit]:hover{
+	color:	#444444
+}
+label{
+	display:block;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+button[name=BarControl]{
+	background : url("/FCISquareApp/images/MenuBar.jpg") no-repeat center center;
+     width : 115px;
+     height :52px;
+     border : none;
+     color : transparent;
+     margin-left:100px;
+     cursor:pointer;
+}
+
+
+.testbox2 {
+	position:absolute;
+	top:270px;
+	left:470px;
+  margin: 20px auto;
+  width: 343px; 
+  height: 350px; 
+  -webkit-border-radius: 8px/7px; 
+  -moz-border-radius: 8px/7px; 
+  border-radius: 8px/7px; 
+  background-color: #ebebeb; 
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  border: solid 1px #cbc9c9;
+}
+
+#icon1 {
+  display: inline-block;
+  width: 75px;
+  
+  background-color: #fd8a17;
+  padding: 8px 0px 8px 15px;
+  margin-left: 15px;
+  -webkit-border-radius: 4px 0px 0px 4px; 
+  -moz-border-radius: 4px 0px 0px 4px; 
+  border-radius: 4px 0px 0px 4px;
+  color: white;
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  border: solid 0px #cbc9c9;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #4c4c4c;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.testbox2 input[type=text]{
+  width: 200px; 
+  height: 39px; 
+  -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+  -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px; 
+  border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+  background-color: #fff; 
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  border: solid 1px #cbc9c9;
+  margin-left: -5px;
+  margin-top: 13px; 
+  padding-left: 10px;
+}

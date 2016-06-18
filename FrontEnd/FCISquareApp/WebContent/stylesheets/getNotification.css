@@ -1,0 +1,9 @@
+#btn{
+	background : url("/FCISquareApp/images/arrow.jpg") no-repeat center center;
+     width : 50px;
+     height :52px;
+     border : none;
+     color : transparent;
+     margin-left:10px;
+}
+button:focus {outline:0;}

@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'Bangers';
+	src: url('/FCISquareApp/fonts/Bangers.ttf');
+/* 	src: local('/FCISquareApp/Pacifico'), local('/FCISquareApp/Pacifico'), url('/FCISquareApp/Pacifico.ttf')  format('truetype'); */
+}
+body{
+    background-color: #fd8a17;
+}
+#Message{
+    margin: auto;
+    margin-top: 100px;
+    width: 650px;
+    height: 380px;
+    position: relative;
+    display:block;
+    font-family: 'Bangers';
+    font-size: 32px;
+    border: 5px solid black;
+    border-radius: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 0 #df7002, 2px 2px 0 #df7002, 3px 3px 3px rgba(0, 0, 0, 0.35);
+}
+#image{
+    top: 0px;
+    left: 0px;
+}
+#demo{
+    margin-left: 10px;
+}
